@@ -283,8 +283,8 @@ ev-charging-cairo-pso/
 ├── Cairo_EV-final.ipynb               # Main implementation
 ├── README.md                          # This file
 ├── requirements.txt                   # Python dependencies
-|── cairo_ev_convergence.png           # Convergence plot
-
+├── cairo_ev_convergence.png           # Convergence plot
+├── cairo_map.png                      # cairo map results 
 ```
 
 ---
@@ -678,8 +678,8 @@ SOFTWARE.
 ### Questions or Issues?
 
 - **GitHub Issues**: Create an issue in the repository
-- **Email**: [mazenshalaly0@gmail.com](mailto:mazenshalaly0@gmail.com)
-- **LinkedIn**: [Your LinkedIn Profile]
+- **Email**: [mazenshalaly0@gmail.com](mailto:your.email@university.edu)
+- **LinkedIn**: [Mazen Shalaly](https://www.linkedin.com/in/mazen-shalaly-1a2366310/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVTeYKS7lRTO3JmDdv%2BI0PQ%3D%3D)
 
 ### Contributing
 
