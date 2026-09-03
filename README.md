@@ -285,6 +285,7 @@ ev-charging-cairo-pso/
 ├── requirements.txt                   # Python dependencies
 ├── cairo_ev_convergence.png           # Convergence plot
 ├── cairo_map.png                      # cairo map results 
+├── cairo_optimal_stations.csv         # cairo optimal stations
 ```
 
 ---
@@ -344,7 +345,7 @@ shapely>=2.0.0
 ### Quick Start
 
 ```bash
-python cairo_ev_charging_pso.py
+python Cairo_EV-final.ipynb
 ```
 
 ### What Happens When You Run It
