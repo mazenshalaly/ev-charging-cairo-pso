@@ -39,8 +39,7 @@ This project implements **Particle Swarm Optimization (PSO)** to solve the K-cen
 | Search Space | C(200,15) ≈ 2.6 × 10²⁶ possibilities |
 | PSO Evaluations | 12,000 (60 particles × 200 iterations) |
 | Efficiency Gain | 10²²× faster than brute force |
-| Max Distance Improvement | 62% reduction (8.5km → 3.2km) |
-| Coverage (within 1km) | 78% (up from 42%) |
+
 
 ### Visual Output
 
@@ -281,29 +280,11 @@ fitness = max_distance + penalty
 ```
 ev-charging-cairo-pso/
 │
-├── cairo_ev_charging_pso.py          # Main implementation
+├── Cairo_EV-final.ipynb               # Main implementation
 ├── README.md                          # This file
 ├── requirements.txt                   # Python dependencies
-│
-├── outputs/                           # Generated files
-│   ├── cairo_ev_charging_map.html    # Interactive map
-│   ├── cairo_ev_convergence.png      # Convergence plot
-│   ├── cairo_optimal_stations.csv    # Station coordinates
-│   └── cairo_neighborhoods.csv       # Neighborhood data
-│
-├── data/                              # Optional: Real data
-│   ├── cairo_neighborhoods.geojson   # Real GIS boundaries
-│   ├── cairo_roads.shp               # Road network
-│   └── existing_stations.csv         # Current stations
-│
-├── notebooks/                         # Jupyter notebooks
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_pso_optimization.ipynb
-│   └── 03_results_visualization.ipynb
-│
-└── docs/                              # Documentation
-    ├── presentation.pptx              # Project presentation
-    └── report.pdf                     # Full project report
+|── cairo_ev_convergence.png           # Convergence plot
+
 ```
 
 ---
@@ -319,7 +300,7 @@ ev-charging-cairo-pso/
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/ev-charging-cairo-pso.git
+git clone https://github.com/mazenshalaly/ev-charging-cairo-pso.git
 cd ev-charging-cairo-pso
 ```
 
@@ -648,17 +629,11 @@ travel_times = ox.distance_matrix(G, origins, destinations, travel_time=True)
 
 ### Project Lead
 
-**[Your Name]** — AI Researcher & Developer
+**[Mazen Shalaly]** — AI Researcher & Developer
 
 - Role: Algorithm design, implementation, visualization
-- Contact: [your.email@university.edu](mailto:your.email@university.edu)
+- Contact: [mazenshalaly0@gmail.com](mailto:mazenshalaly0@gmail.com)
 
-### Course Information
-
-- **Course**: Artificial Intelligence (AI 202)
-- **Institution**: [Your University]
-- **Semester**: Spring 2024
-- **Supervisor**: [Professor Name]
 
 ### Acknowledgments
 
@@ -675,7 +650,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ```
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2026 [Mazen Shalaly]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -703,7 +678,7 @@ SOFTWARE.
 ### Questions or Issues?
 
 - **GitHub Issues**: Create an issue in the repository
-- **Email**: [your.email@university.edu](mailto:your.email@university.edu)
+- **Email**: [mazenshalaly0@gmail.com](mailto:mazenshalaly0@gmail.com)
 - **LinkedIn**: [Your LinkedIn Profile]
 
 ### Contributing
